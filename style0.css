@@ -4,19 +4,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width:700px) {
-    body{
-    background-image: url(/third.jpg);
-    background-size: cover;
-    background-repeat:no-repeat;
-    
-    }
-}
-@media (max-width:700px) {
-    body{
-        background-image: url(/first.jpg);
-        background-size: 100%;
-        background-repeat:no-repeat;
-        background-color: yellowgreen;
-    }
+.carousel-inner img{
+    width: 1290px;
+    height: 600px;
 }
